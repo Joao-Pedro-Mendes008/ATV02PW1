@@ -1,7 +1,14 @@
 body{
     background-color: beige;
 }
+header{
+    background-color: rgb(64, 73, 201);
+    position: fixed;
+    left:38%;
+    border: 2px;
+    border-radius: 14px;
 
+}
 #header, h1{
     text-align: center;
     border:  2px;
@@ -16,6 +23,7 @@ nav{
 }
 
 a{
+    margin-right: 12px;
     margin-left: 12px;
     padding-top: 3px;
     padding-left: 3px;
@@ -112,19 +120,23 @@ a:hover{
 
 #midia video{
     position: relative;
+    max-width: 100%;
+    width: 20%;
     bottom: 40px;
-    right: 285px;
+    right: 270px;
 }
 
 #midia iframe{
     position: relative;
     bottom: 230px;
-    left: 130px;
+    left: 120px;
 }
 #midia img{
     align-items: center;
     position: relative;
-    bottom:130px;
+    bottom: 130px;
+
+
 }
 #midia p{
     text-align: center;
